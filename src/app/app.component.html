@@ -1,0 +1,56 @@
+<!-- <div class="card  text-center bg-light  " style="height:100vh;">
+
+
+    <div class="card-header pt-1 pb-1 ">
+        <b>ROOR</b><br /><i>Real-time Offline Objects Recognition</i>
+
+    </div>
+
+
+    <div class="card-body pt-1 pb-1 pl-2 pr-2">
+
+        <span class="card-text">
+
+     
+            <div id="notsupported">
+
+            </div>
+            <div id="spinner" class="spinner-grow text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <video hidden id="videoBox" width="350" height="450"></video>
+
+            <canvas id="canvas"></canvas>
+
+
+        </span>
+    </div>
+
+</div> -->
+
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <img src="/assets/icons/icon-512x512.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        ROOR
+    </a>
+</nav>
+<div class="container text-center pt-1 pb-1 pl-2 pr-2">
+
+    <div *ngIf="isCameraLoading || isModelLoading">
+        <div class="alert alert-info" role="alert">
+            Loading camera feed and prediction / recognition model, please wait ...
+        </div>
+        <div id="spinner" class="spinner-grow text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <div *ngIf="isError">
+        <div class="alert alert-danger" role="alert">
+            {{errorMessage}}
+        </div>
+    </div>
+    <video hidden id="videoBox" width="350" height="450"></video>
+
+    <canvas id="canvas"></canvas>
+</div>
