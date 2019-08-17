@@ -1,6 +1,17 @@
 # Real-time Offline Objects Recognition (ROOR) Progressive Web App (PWA)
 
+ROOR brings the benefits of AI and machine learning to your device's browser, it integrates a pre-trained machine learning object recgonition model for offline use, and since it is a Progressive Web App (PWA) that means the whole app can be operated completely offline. After the initial load, no connection is required to operate the app.
+
+This PWA requires access to the device's camera feed.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+
+# Demo
+
+https://irkan-hadi.github.io/roor/index.html
+https://roor-pwa.web.app
+https://roor-pwa.firebaseapp.com
+
 
 ## Development server
 
@@ -14,13 +25,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
