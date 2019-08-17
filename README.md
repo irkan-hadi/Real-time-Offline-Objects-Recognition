@@ -1,6 +1,6 @@
 # Real-time Offline Objects Recognition (ROOR) Progressive Web App (PWA)
 
-ROOR brings the benefits of AI and machine learning to your device's browser, it integrates a pre-trained machine learning object recgonition model for offline use, and since it is a Progressive Web App (PWA) that means the whole app can be operated completely offline. After the initial load, no connection is required to operate the app.
+ROOR brings the benefits of AI and machine learning to your device's browser, it integrates a pre-trained machine learning objects recognition model for offline use, and since it is a Progressive Web App (PWA) that means the whole app can be operated completely offline. After the initial load, no connection is required to operate the app.
 
 This PWA requires access to the device's camera feed.
 
