@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//import COCO-SSD model as cocoSSD (pre-trained object prediction and detection model)
+//import COCO-SSD model as cocoSSD (pre-trained object detection, prediction and recognition model)
 import * as cocoSSD from '@tensorflow-models/coco-ssd';
 
 @Component({
