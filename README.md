@@ -16,8 +16,8 @@ https://roor-pwa.firebaseapp.com
 
 
 ## Development server
-
-Run `ng build --prod && http-server dist\\roor-pwa -a localhost -p 8080 -c-1` for a dev server. Navigate to `http://localhost:8080/`.
+- Run `npm install`
+- Run `ng build --prod && http-server dist\\roor-pwa -a localhost -p 8080 -c-1` for a dev server. Navigate to `http://localhost:8080/`.
 
 ## Code scaffolding
 
