@@ -27,7 +27,7 @@
     "@tensorflow/tfjs": "^1.2.7",
     "rxjs": "~6.5.2",
     "save": "^2.4.0",
-    "tslib": "^1.10.0",
+    "tslib": "^2.0.1",
     "zone.js": "~0.10.1"
   },
   "devDependencies": {
