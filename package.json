@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~10.0.11",
     "@angular/pwa": "^0.1000.0",
     "@angular/router": "~10.0.11",
-    "@angular/service-worker": "~10.0.0",
+    "@angular/service-worker": "~10.1.2",
     "@tensorflow-models/coco-ssd": "^2.0.0",
     "@tensorflow/tfjs": "^1.2.7",
     "rxjs": "~6.5.2",
