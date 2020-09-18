@@ -20,7 +20,7 @@
     "@angular/forms": "~10.0.11",
     "@angular/platform-browser": "~8.2.2",
     "@angular/platform-browser-dynamic": "~10.0.11",
-    "@angular/pwa": "^0.1000.0",
+    "@angular/pwa": "^0.1001.2",
     "@angular/router": "~10.0.11",
     "@angular/service-worker": "~10.0.0",
     "@tensorflow-models/coco-ssd": "^2.0.0",
