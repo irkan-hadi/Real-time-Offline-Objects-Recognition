@@ -35,7 +35,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~15.0.1",
     "@angular/cli": "~12.1.1",
-    "@angular/compiler-cli": "~12.1.2",
+    "@angular/compiler-cli": "~15.1.0",
     "@angular/language-service": "~15.0.1",
     "@types/node": "~18.11.9",
     "ts-node": "~10.1.0",
